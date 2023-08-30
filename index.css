@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(219, 206, 191);
+}
+.card-bottom a img {
+    width: 25px;
+    height: 25px;
+    opacity: 0.8;
+}
+.intro_card {
+    position: relative;
+    margin: 72px 0px 50px calc((100% - 980px) * 0.5);
+    background-color: rgb(190, 169, 144);
+}
+.intro_pic {
+    width: 15rem;
+    height: 15rem;
+    margin: 2;
+    padding: 20px;
+}
+.card {
+    position: absolute;
+    width: 20rem;
+    height: 28rem;
+    box-shadow: -5px 6px 15px rgba(0, 0, 0, 0.3);
+    background-color: rgb(241, 234, 225);
+}
+.card .card-bottom {
+    background-color: rgb(255, 255, 255);
+    height: 58px;
+}
+.block {
+    width: 60rem;
+    height: 50rem;
+    background-color: rgb(241, 234, 225);
+    border-radius: 20px;
+    box-shadow: -5px 6px 15px rgba(0, 0, 0, 0.3);
+}
+.skills_block {
+    width: 60rem;
+    height: 37rem;
+    background-color: rgb(241, 234, 225);
+    border-radius: 20px;
+    box-shadow: -5px 6px 15px rgba(0, 0, 0, 0.3);
+}
+.skills_icon {
+    width: 58px;
+    height: 58px;
+    opacity: 1;
+}
