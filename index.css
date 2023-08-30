@@ -1,5 +1,6 @@
 body {
     background-color: rgb(219, 206, 191);
+    font-family: 'Droid Sans', sans-serif;
 }
 .card-bottom a img {
     width: 25px;
@@ -20,7 +21,7 @@ body {
 .card {
     position: absolute;
     width: 20rem;
-    height: 28rem;
+    height: 29rem;
     box-shadow: -5px 6px 15px rgba(0, 0, 0, 0.3);
     background-color: rgb(241, 234, 225);
 }
@@ -30,14 +31,77 @@ body {
 }
 .block {
     width: 60rem;
-    height: 50rem;
+    height: 55rem;
     background-color: rgb(241, 234, 225);
     border-radius: 20px;
     box-shadow: -5px 6px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+}
+.timeline {
+    list-style: none;
+    padding: 20px 20px 20px;
+    position: relative;
+    width: 100%;
+}
+.timeline li {
+    margin-bottom: 50px;
+    position: relative;
+    display: flex;
+}
+.timeline .panel {
+    width: 46%;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    background: #f5f5f5;
+    box-shadow: -3px 3px 13px rgba(0, 0, 0, 0.3);
+}
+.timeline p {
+    padding: 0 20px 10px 20px;
+}
+.timeline summary {
+    display: block;
+    user-select: none;
+    cursor: pointer;
+    outline: non
+    e;
+    padding: 20px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+.timeline:before {
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+    content: "";
+    width: 5px;
+    background-color: #f5f5f5;
+    box-shadow: -1px -1px 5px #dee1e4,
+    1px 1px 5px #ffffff;
+    border-radius: 15%;
+}
+.timeline li:before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    top: 18px;
+    left: 50%;
+    background-color: #f8f8f8;
+    margin-left: -11px;
+    z-index: 99;
+    box-shadow: 2px 2px 5px #dee1e4,
+    -2px -2px 5px #dee1e4;
+}
+.timeline li:nth-child(even) {
+    justify-content: flex-end;
 }
 .skills_block {
     width: 60rem;
-    height: 37rem;
+    height: 40rem;
     background-color: rgb(241, 234, 225);
     border-radius: 20px;
     box-shadow: -5px 6px 15px rgba(0, 0, 0, 0.3);
@@ -46,4 +110,7 @@ body {
     width: 58px;
     height: 58px;
     opacity: 1;
+}
+.skills_icon:hover {
+    cursor: pointer;
 }
