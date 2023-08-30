@@ -2,6 +2,12 @@ body {
     background-color: rgb(219, 206, 191);
     font-family: 'Droid Sans', sans-serif;
 }
+br:before {
+    height: 10px;
+    width: 30px;
+    content: "";
+    background-color: aqua;
+}
 .card-bottom a img {
     width: 25px;
     height: 25px;
