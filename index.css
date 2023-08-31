@@ -120,3 +120,19 @@ br:before {
 .skills_icon:hover {
     cursor: pointer;
 }
+@media (max-width: 500px) {
+    .block {
+        height: 65rem;
+    }
+    .skills_block {
+        height: 55rem;
+    }
+}
+@media (max-width: 350px) {
+    .block {
+        height: 80rem;
+    }
+    .skills_block {
+        height: 80rem;
+    }
+}
