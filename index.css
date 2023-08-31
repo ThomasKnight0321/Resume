@@ -2,24 +2,15 @@ body {
     background-color: rgb(219, 206, 191);
     font-family: 'Droid Sans', sans-serif;
 }
-/* .top_area {
-    height: 80rem;
-} */
 br:before {
     height: 10px;
     width: 30px;
     content: "";
     background-color: aqua;
 }
-.card-bottom a img {
-    width: 25px;
-    height: 25px;
-    opacity: 0.8;
-}
 .intro_card {
     position: relative;
     margin: 72px 0px 50px calc((100% - 980px) * 0.5);
-    background-color: rgb(190, 169, 144);
 }
 .intro_pic {
     width: 15rem;
@@ -28,8 +19,7 @@ br:before {
     padding: 20px;
 }
 .card {
-    position: absolute;
-    width: 20rem;
+    position: relative;
     height: 29rem;
     box-shadow: -5px 6px 15px rgba(0, 0, 0, 0.3);
     background-color: rgb(241, 234, 225);
@@ -37,6 +27,11 @@ br:before {
 .card .card-bottom {
     background-color: rgb(255, 255, 255);
     height: 58px;
+}
+.card-bottom a img {
+    width: 25px;
+    height: 25px;
+    opacity: 0.8;
 }
 .block {
     width: 60rem;
