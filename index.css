@@ -134,3 +134,11 @@ br:before {
         height: 70rem;
     }
 }
+@media (max-width: 325px) {
+    .block {
+        height: 85rem;
+    }
+    .skills_block {
+        height: 80rem;
+    }
+}
