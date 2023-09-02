@@ -119,10 +119,10 @@ br:before {
     cursor: pointer;
 }
 @media (max-width: 991px) {
-    /* .intro_card {
+    .intro_card {
         margin: 0;
-        width: 100rem;
-    } */
+        width: 140rem;
+    }
     .block {
         height: 65rem;
     }
